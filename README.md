@@ -9,6 +9,7 @@
 - Научиться использовать команду grep для поиска строк в текстовом файле.
 
 1. Создание текстового файла:
+
 Создайте файл с именем example.txt и добавьте в него несколько строк текста. Для этого используйте следующую команду:
 
 ```
@@ -19,6 +20,7 @@ echo -e "Hello World\nThis is a test file\nGrep is powerful\nGoodbye World" > ex
 
 
 2. Поиск строки:
+
 Используйте команду grep, чтобы найти строки, содержащие слово "World":
 
 ```
@@ -35,6 +37,7 @@ Goodbye World
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20T%C3%ACm%20ki%E1%BA%BFm%20d%C3%B2ng.png)
 
 3. Поиск без учета регистра:
+
 Попробуйте использовать grep с флагом -i, чтобы сделать поиск нечувствительным к регистру:
 
 ```
@@ -44,6 +47,7 @@ grep -i "world" example.txt
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20T%C3%ACm%20ki%E1%BA%BFm%20kh%C3%B4ng%20ph%C3%A2n%20bi%E1%BB%87t%20ch%E1%BB%AF%20hoa%20ch%E1%BB%AF%20th%C6%B0%E1%BB%9Dng.png)
 
 4. Вывод номеров строк:
+
 Используйте флаг -n, чтобы показать номера строк, где найдено совпадение:
 
 ```
@@ -97,6 +101,7 @@ echo "Результаты поиска сохранены в results.txt"
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20code%20grep.png)
 
 2. Сделайте скрипт исполняемым:
+
 Для этого выполните следующую команду:
 
 ```
@@ -106,6 +111,7 @@ chmod +x search.sh
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20chmod%20%2Bx%20search.sh.png)
 
 3. Запустите скрипт:
+
 Запустите скрипт с заданным словом и файлом:
 
 ```
