@@ -121,6 +121,7 @@ chmod +x search.sh
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20search.sh%20test%20example.txt.png)
 
 4. Проверьте содержимое файла results.txt:
+
 Чтобы просмотреть содержимое этого файла, вы можете использовать команду cat:
 
 ```
@@ -136,6 +137,7 @@ This is a test file
 ![image](https://github.com/haha523/grep_lab/blob/c0136675e7e3a32868bee63817ad20a4a6b6fe1b/png%20for%20lab/k%E1%BA%BFt%20qu%E1%BA%A3%20results.txt.png)
 
 5. Проверьте содержимое файла example.txt:
+
 Чтобы просмотреть содержимое этого файла, вы можете использовать команду cat:
 
 ```
